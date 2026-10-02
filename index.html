@@ -1,0 +1,623 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Barunia Property | PT Barunia Bangun Mandiri</title>
+    <link rel="stylesheet" href="StyleFull.css">
+</head>
+<body onload="animasiAwal()" onscroll="animasiScroll()">
+<div id="wrapper">
+    <header id="home" class="hero">
+        <nav id="navMenu">
+        <div class="logo-area">
+        <img src="IMG-20260923-WA0010.jpg.jpeg"
+             alt="Logo Barunia">
+             <span>
+                 BARUNIA
+                 <br>
+                 <b>PROPERTY</b>
+             </span>
+			 </div>
+			 <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li class="dropdown">
+                    <a href="#produk">Hunian ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#tipe36">Tipe 36 / 60</a></li>
+                        <li><a href="#tipe45">Tipe 45 / 84</a></li>
+                        <li><a href="#tipe60">Tipe 60 / 96</a></li>
+                        <li><a href="#tipe70">Tipe 70 / 120</a></li>
+                    </ul>
+                </li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#inspeksi">Mutu</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <p id="heroLabel" class="small-title animasi-awal">
+                PT BARUNIA BANGUN MANDIRI
+            </p>
+            <h1 id="heroJudul" class="animasi-awal">
+                Hunian Modern, Mewah
+                <br>
+                & Siap Huni
+            </h1>
+            <p id="heroDeskripsi"
+               class="hero-text animasi-awal">
+                Miliki rumah impian Anda sekarang!
+                Nikmati kenyamanan tinggal di lingkungan
+                yang tenang dengan desain modern minimalis
+                yang elegan, cocok untuk keluarga masa kini.
+            </p>
+            <a id="heroTombol"
+               href="#produk"
+               class="hero-button animasi-awal">
+                JELAJAHI HUNIAN
+            </a>
+        </div>
+        <a href="#profil" class="scroll-indicator">
+            SCROLL TO EXPLORE
+            <span>↓</span>
+        </a>
+    </header>
+    <main id="content">
+        <section id="profil"
+                 class="section profil-section animasi-scroll">
+            <div class="section-title">
+                <p>ABOUT BARUNIA</p>
+                <h2>
+                    Membangun Hunian,
+                    <br>
+                    Mewujudkan Kenyamanan
+                </h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="profile-text">
+                <p>
+                    <b>PT Barunia Bangun Mandiri</b>
+                    merupakan perusahaan yang bergerak
+                    di bidang pengembangan dan pembangunan
+                    properti.
+                </p>
+                <p>
+                    Kami berkomitmen menghadirkan hunian
+                    yang nyaman, berkualitas, dan sesuai
+                    dengan kebutuhan masyarakat.
+                    Setiap rumah dirancang dengan
+                    memperhatikan fungsi ruang,
+                    kenyamanan, serta desain modern.
+                </p>
+                <a href="#produk" class="text-link">
+                    LIHAT PILIHAN HUNIAN →
+                </a>
+            </div>
+        </section>
+        <section class="stats animasi-scroll">
+            <div class="stat-box">
+                <h3>10+</h3>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat-box">
+                <h3>500+</h3>
+                <p>Unit Hunian</p>
+            </div>
+            <div class="stat-box">
+                <h3>4</h3>
+                <p>Pilihan Tipe</p>
+            </div>
+            <div class="stat-box">
+                <h3>100%</h3>
+                <p>Komitmen Mutu</p>
+            </div>
+        </section>
+        <section id="produk" class="section">
+            <div class="section-title center animasi-scroll">
+                <p>OUR PROPERTY</p>
+                <h2>Pilihan Hunian Barunia</h2>
+                <div class="title-line center-line"></div>
+                <span>
+                    Setiap keluarga memiliki kebutuhan
+                    yang berbeda. Temukan rumah yang
+                    paling sesuai dengan gaya hidup Anda.
+                </span>
+            </div>
+            <div class="property-grid">
+                <article id="tipe36"
+                         class="property-card animasi-scroll">
+                    <div class="property-image">
+                        <img src="TipeRumah36.png"
+                             alt="Rumah Tipe 36"
+                             id="gambar36"
+                             onmouseover="gambarMasuk(36)"
+                             onmouseout="gambarKeluar(36)">
+                        <span class="image-label">
+                            STARTER HOME
+                        </span>
+                    </div>
+                    <div class="property-content">
+                        <p class="property-number">
+                            RESIDENCE / 01
+                        </p>
+                        <h3>Tipe 36 / 60</h3>
+                        <p class="property-description">
+                            Hunian minimalis yang praktis
+                            dan nyaman, cocok untuk pasangan
+                            muda atau keluarga kecil yang
+                            ingin memiliki rumah pertama.
+                        </p>
+                        <div class="property-specs">
+                            <span>36 m² Bangunan</span>
+                            <span>60 m² Tanah</span>
+                        </div>
+                        <button id="tombol36"
+                                class="card-button"
+                                onclick="detailRumah(36)">
+                            LIHAT DETAIL +
+                        </button>
+                        <div id="detail36"
+                             class="detail-rumah"
+                             style="display:none;">
+                            <h4>Spesifikasi Rumah</h4>
+                            <p>
+                                Luas Bangunan: 36 m²<br>
+                                Luas Tanah: 60 m²<br>
+                                Kamar Tidur: 2<br>
+                                Kamar Mandi: 1<br>
+                                Carport: 1
+                            </p>
+                            <a href="#kontak">
+                                KONSULTASI TIPE INI →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article id="tipe45"
+                         class="property-card animasi-scroll">
+                    <div class="property-image">
+                        <img src="TipeRumah45.png"
+                             alt="Rumah Tipe 45"
+                             id="gambar45"
+                             onmouseover="gambarMasuk(45)"
+                             onmouseout="gambarKeluar(45)">
+                        <span class="image-label">
+                            SMART LIVING
+                        </span>
+                    </div>
+                    <div class="property-content">
+                        <p class="property-number">
+                            RESIDENCE / 02
+                        </p>
+                        <h3>Tipe 45 / 84</h3>
+                        <p class="property-description">
+                            Rumah dengan penataan ruang
+                            yang efisien dan area yang
+                            terasa lapang. Pilihan tepat
+                            bagi keluarga kecil yang
+                            mengutamakan kenyamanan
+                            tanpa mengorbankan fungsi.
+                        </p>
+                        <div class="property-specs">
+                            <span>45 m² Bangunan</span>
+                            <span>84 m² Tanah</span>
+                        </div>
+                        <button id="tombol45"
+                                class="card-button"
+                                onclick="detailRumah(45)">
+                            LIHAT DETAIL +
+                        </button>
+                        <div id="detail45"
+                             class="detail-rumah"
+                             style="display:none;">
+                            <h4>Spesifikasi Rumah</h4>
+                            <p>
+                                Luas Bangunan: 45 m²<br>
+                                Luas Tanah: 84 m²<br>
+                                Kamar Tidur: 2<br>
+                                Kamar Mandi: 1<br>
+                                Carport: 1
+                            </p>
+                            <a href="#kontak">
+                                KONSULTASI TIPE INI →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article id="tipe60"
+                         class="property-card animasi-scroll">
+                    <div class="property-image">
+                        <img src="TipeRumah60.png"
+                             alt="Rumah Tipe 60"
+                             id="gambar60"
+                             onmouseover="gambarMasuk(60)"
+                             onmouseout="gambarKeluar(60)">
+                        <span class="image-label">
+                            FAMILY RESIDENCE
+                        </span>
+                    </div>
+                    <div class="property-content">
+                        <p class="property-number">
+                            RESIDENCE / 03
+                        </p>
+                        <h3>Tipe 60 / 96</h3>
+                        <p class="property-description">
+                            Dirancang untuk keluarga yang
+                            membutuhkan ruang lebih luas.
+                            Area hunian yang lega memberikan
+                            keleluasaan untuk berkumpul,
+                            beraktivitas, dan menikmati
+                            waktu bersama keluarga.
+                        </p>
+                        <div class="property-specs">
+                            <span>60 m² Bangunan</span>
+                            <span>96 m² Tanah</span>
+                        </div>
+                        <button id="tombol60"
+                                class="card-button"
+                                onclick="detailRumah(60)">
+                            LIHAT DETAIL +
+                        </button>
+                        <div id="detail60"
+                             class="detail-rumah"
+                             style="display:none;">
+                            <h4>Spesifikasi Rumah</h4>
+                            <p>
+                                Luas Bangunan: 60 m²<br>
+                                Luas Tanah: 96 m²<br>
+                                Kamar Tidur: 2<br>
+                                Kamar Mandi: 1<br>
+                                Carport: 1
+                            </p>
+                            <a href="#kontak">
+                                KONSULTASI TIPE INI →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article id="tipe70"
+                         class="property-card animasi-scroll">
+                    <div class="property-image">
+                        <img src="TipeRumah70.png"
+                             alt="Rumah Tipe 70"
+                             id="gambar70"
+                             onmouseover="gambarMasuk(70)"
+                             onmouseout="gambarKeluar(70)">
+                        <span class="image-label">
+                            PREMIUM LIVING
+                        </span>
+                    </div>
+                    <div class="property-content">
+                        <p class="property-number">
+                            RESIDENCE / 04
+                        </p>
+                        <h3>Tipe 70 / 120</h3>
+                        <p class="property-description">
+                            Hunian premium dengan area
+                            yang lebih luas dan tata ruang
+                            yang fleksibel. Menghadirkan
+                            keseimbangan antara kenyamanan,
+                            privasi, dan desain elegan
+                            untuk keluarga masa kini.
+                        </p>
+                        <div class="property-specs">
+                            <span>70 m² Bangunan</span>
+                            <span>120 m² Tanah</span>
+                        </div>
+                        <button id="tombol70"
+                                class="card-button"
+                                onclick="detailRumah(70)">
+                            LIHAT DETAIL +
+                        </button>
+                        <div id="detail70"
+                             class="detail-rumah"
+                             style="display:none;">
+                            <h4>Spesifikasi Rumah</h4>
+                            <p>
+                                Luas Bangunan: 70 m²<br>
+                                Luas Tanah: 120 m²<br>
+                                Kamar Tidur: 3<br>
+                                Kamar Mandi: 2<br>
+                                Carport: 1
+                            </p>
+                            <a href="#kontak">
+                                KONSULTASI TIPE INI →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="galeri"
+                 class="galeri-section animasi-scroll">
+            <div class="section-title center">
+                <p>EXPLORE OUR HOMES</p>
+                <h2>Jelajahi Hunian Kami</h2>
+                <div class="title-line center-line"></div>
+                <span>
+                    Lihat berbagai pilihan hunian
+                    melalui galeri interaktif.
+                </span>
+            </div>
+            <div class="galeri-container">
+                <button class="galeri-arrow"
+                        onclick="gambarSebelumnya()">
+                    &#10094;
+                </button>
+                <div class="galeri-content">
+                    <img src="TipeRumah36.png"
+                         id="gambarGaleri"
+                         alt="Galeri Rumah">
+                    <div class="galeri-caption">
+                        <p>BARUNIA COLLECTION</p>
+                        <h3 id="keteranganGaleri">
+                            Rumah Tipe 36 / 60
+                        </h3>
+                    </div>
+                </div>
+                <button class="galeri-arrow"
+                        onclick="gambarBerikutnya()">
+                    &#10095;
+                </button>
+            </div>
+        </section>
+        <section class="why-section animasi-scroll">
+            <div class="why-image">
+                <img
+                    src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80"
+                    alt="Inspirasi interior rumah">
+            </div>
+            <div class="why-content">
+                <p class="property-label">
+                    WHY BARUNIA
+                </p>
+                <h2>
+                    Lebih dari Sekadar
+                    <br>
+                    Tempat Tinggal
+                </h2>
+                <div class="title-line"></div>
+                <p>
+                    Rumah adalah tempat berbagai
+                    cerita dimulai. Karena itu,
+                    kami menghadirkan pilihan hunian
+                    yang memperhatikan kenyamanan
+                    dan kebutuhan setiap keluarga.
+                </p>
+                <ul>
+                    <li>Desain modern dan fungsional</li>
+                    <li>Pilihan tipe yang beragam</li>
+                    <li>Memperhatikan kualitas bangunan</li>
+                    <li>Hunian untuk berbagai kebutuhan</li>
+                </ul>
+                <a href="#inspeksi"
+                   class="dark-button">
+                    KOMITMEN KAMI →
+                </a>
+            </div>
+        </section>
+        <section class="section pricelist-section animasi-scroll">
+            <div class="section-title center">
+                <p>PROPERTY INFORMATION</p>
+                <h2>Spesifikasi & Pricelist</h2>
+                <div class="title-line center-line"></div>
+                <span>
+                    Perbandingan pilihan hunian
+                    berdasarkan luas bangunan
+                    dan luas tanah.
+                </span>
+            </div>
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>TIPE</th>
+                        <th>LUAS BANGUNAN</th>
+                        <th>LUAS TANAH</th>
+                        <th>HARGA MULAI</th>
+                    </tr>
+                    <tr>
+                        <td>Tipe 36</td>
+                        <td>36 m²</td>
+                        <td>60 m²</td>
+                        <td>Rp250.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tipe 45</td>
+                        <td>45 m²</td>
+                        <td>84 m²</td>
+                        <td>Rp350.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tipe 60</td>
+                        <td>60 m²</td>
+                        <td>96 m²</td>
+                        <td>Rp450.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tipe 70</td>
+                        <td>70 m²</td>
+                        <td>120 m²</td>
+                        <td>Rp550.000.000</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="inspeksi"
+                 class="quality-section animasi-scroll">
+            <div class="quality-content">
+                <p class="property-label">
+                    QUALITY COMMITMENT
+                </p>
+                <h2>
+                    Kualitas Hunian
+                    <br>
+                    untuk Masa Depan
+                </h2>
+                <p>
+                    Kami memperhatikan setiap
+                    aspek hunian, mulai dari
+                    perencanaan hingga kenyamanan
+                    ruang yang digunakan sehari-hari.
+                </p>
+                <div class="quality-list">
+                    <div>
+                        <h3>01 / Kualitas Bangunan</h3>
+                        <p>
+                            Memperhatikan pemilihan
+                            material dan proses pembangunan.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>02 / Desain Fungsional</h3>
+                        <p>
+                            Mengoptimalkan tata ruang
+                            sesuai kebutuhan penghuni.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>03 / Kenyamanan Hunian</h3>
+                        <p>
+                            Menghadirkan rumah yang
+                            nyaman untuk keluarga.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="quality-box">
+                <span>BARUNIA PROPERTY</span>
+
+                <h3>
+                    Quality
+                    <br>
+                    Living.
+                </h3>
+                <p>
+                    Thoughtfully designed
+                    for better living.
+                </p>
+            </div>
+        </section>
+        <section id="kontak"
+                 class="contact-section animasi-scroll">
+            <div class="contact-title">
+                <p>GET IN TOUCH</p>
+                <h2>
+                    Rumah Impian
+                    <br>
+                    Dimulai di Sini.
+                </h2>
+                <div class="title-line"></div>
+                <p>
+                    Tertarik dengan salah satu
+                    hunian kami? Isi formulir
+                    untuk mengetahui informasi
+                    lebih lanjut.
+                </p>
+            </div>
+            <div class="contact-form">
+                <form onsubmit="return validasiForm()">
+                    <label for="nama">
+                        Nama Lengkap
+                    </label>
+                    <input type="text"
+                           id="nama"
+                           placeholder="Nama Anda">
+                    <label for="whatsapp">
+                        Nomor WhatsApp
+                    </label>
+                    <input type="text"
+                           id="whatsapp"
+                           placeholder="08xxxxxxxxxx">
+                    <label for="tipe">
+                        Pilihan Tipe Rumah
+                    </label>
+                    <select id="tipe"
+                            onchange="pilihRumah()">
+                        <option value="">
+                            Pilih Tipe Rumah
+                        </option>
+                        <option value="36">
+                            Tipe 36 / 60
+                        </option>
+                        <option value="45">
+                            Tipe 45 / 84
+                        </option>
+                        <option value="60">
+                            Tipe 60 / 96
+                        </option>
+                        <option value="70">
+                            Tipe 70 / 120
+                        </option>
+                    </select>
+                    <div id="informasiTipe"></div>
+                    <label for="pesan">
+                        Pesan
+                    </label>
+                    <textarea id="pesan"
+                              rows="5"
+                              placeholder="Tuliskan pertanyaan Anda..."></textarea>
+                    <div class="form-buttons">
+                        <button type="submit"
+                                class="submit-button">
+                            KIRIM PESAN →
+                        </button>
+                        <button type="reset"
+                                class="reset-button"
+                                onclick="resetForm()">
+                            RESET
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="footer-column">
+                <h3>BARUNIA PROPERTY</h3>
+                <p>
+                    PT Barunia Bangun Mandiri
+                </p>
+                <p>
+                    Menghadirkan pilihan hunian
+                    untuk kebutuhan keluarga Anda.
+                </p>
+            </div>
+            <div class="footer-column">
+                <h3>NAVIGASI</h3>
+                <a href="#home">Beranda</a>
+                <a href="#profil">Profil</a>
+                <a href="#produk">Hunian</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#kontak">Kontak</a>
+            </div>     
+		<div class="footer-column">
+    <h3>HUBUNGI KAMI</h3>
+    <p>WhatsApp: 089506085975</p>
+    <p>Email: Baruniabangunmandiri@gmail.com</p>
+	<p>
+		Instagram: <a href="https://www.instagram.com/pt.baruniabangunmandiri/"
+		target="_blank"
+		style="display: inline; color: #4DA6FF; text-decoration: none;">
+        @pt.baruniabangunmandiri
+    </a>
+</p>
+</p>
+    </a>
+</div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                © 2026 PT Barunia Bangun Mandiri.
+                All Rights Reserved.
+            </p>
+            <a href="#home">
+                BACK TO TOP ↑
+            </a>
+        </div>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
